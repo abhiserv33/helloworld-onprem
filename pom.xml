@@ -34,8 +34,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>abhmule1712</username>
-						<password>Mulesoft4321</password>
+						<server>anypoint.credentials</server>
 						<applicationName>INTG-MS-UCCU-blend-fiserv-api</applicationName>
 						<environment>Sandbox</environment>
 						<region>eu-central-1</region>
