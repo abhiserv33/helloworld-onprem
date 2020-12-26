@@ -1,0 +1,30 @@
+#%RAML 1.0
+title: processAPI
+
+documentation:
+  - title: UCCU
+    content: Create new customer/account in fiserv.Also,create new fund request in fiserv.
+
+protocols:
+  - HTTPS
+
+mediaType: 
+- application/json
+
+uses:
+  healthCheck: exchange_modules/f9854f91-5fe8-4ef5-9d12-ba7c25f827bd/health-check/1.0.0/health-check.raml
+  securityScheme: exchange_modules/f9854f91-5fe8-4ef5-9d12-ba7c25f827bd/api-security/1.0.3/api-security.raml
+  responseTraits: libraries/responseTraits.raml
+
+/healthCheck:
+  type: healthCheck.check
+  
+/v1:
+  description: To create new customer and account in fiserv.
+  post:
+    description: Create new customer and account in fiserv.
+    body:
+      application/json:
+        example: !include libraries/examples/request.json
+  is: [securityScheme.httpHeaders, responseTraits.customerDetailsResponse]
+

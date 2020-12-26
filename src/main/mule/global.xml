@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd 
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<http:listener-config name="INTG-UCCU-blend-fiserve-prc-api-httpListenerConfig">
+        <http:listener-connection host="0.0.0.0" port="${http.port}"/>
+    </http:listener-config>
+	<configuration doc:name="Configuration" doc:id="33815524-f9a0-41c4-8a9b-924194f0d00d" defaultErrorHandler-ref="Global_Error_Handler" />
+	<configuration-properties doc:name="Configuration properties" doc:id="d5883c98-69ab-4023-9550-b7e78c6adc28" file="config.yaml" />
+	<apikit:config name="INTG-MS-UCCU-blend-fiserv-custcreate-prc-api-config" api="INTG-MS-UCCU-blend-fiserv-custcreate-prc-api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+	
+</mule>

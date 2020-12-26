@@ -1,0 +1,23 @@
+#%RAML 1.0 Library
+usage: To define the security mechanism (client ID enforcement) for an API
+
+traits:
+  client-id-required:
+    headers:
+      client_id:
+        type: string
+      client_secret:
+        type: string
+  httpHeaders:
+    headers:
+      correlationID:
+        type: string
+        required: true
+      blendAppID:
+        type: string
+        required: true
+      flowType:
+        type: string
+        required: true
+        enum: [customerFlow,cbsFundFlow]
+    

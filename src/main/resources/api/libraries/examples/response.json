@@ -1,0 +1,16 @@
+{
+	"statusMsg" : "Success",
+	"statusCode" : "0000",
+	"partyDetails" : {
+		"partyID" : "CUST001"
+	},
+	"accountDetails":{
+		"acountNo":124345
+	}
+}
+
+
+
+
+
+

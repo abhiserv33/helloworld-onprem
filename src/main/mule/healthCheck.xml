@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="sf-healthCheck" doc:id="dbb324f5-34c0-40d9-8fc5-4dddffe8f497" >
+		<logger level="INFO" doc:name="LOG-Health Check starts" doc:id="f83170a4-cd9b-4706-9c3b-287b59561c99" message="Health Check starts !!"/>
+		<ee:transform doc:name="return timestamp and status" doc:id="4f135982-14b0-4b0b-87c9-60066ddf78e9" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+   timestamp: now(),
+   status: "Server Up"
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="LOG-Health Check ends" doc:id="a0624f9d-8983-4fa8-8386-54c3ce553288" message="Health Check ends!!"/>
+		<error-handler >
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="d14e9d80-358d-424d-9dfe-f9b3a672eb26" >
+				<logger level="INFO" doc:name="LOG-exception occurred" doc:id="529d73c4-8667-4602-a2ea-21d3f05bbefb" message="Exception occurred during health check "/>
+			</on-error-propagate>
+		</error-handler>
+	</flow>
+</mule>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:vm="http://www.mulesoft.org/schema/mule/vm" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd">
+	<sub-flow name="sf-implementation" doc:id="b7441bb3-a3a5-4349-b20d-1a859392af25" >
+		<logger level="INFO" doc:name="LOG-Flow starts" doc:id="7ce3c855-2508-415f-adfc-3953eb0aea58" message="Flow starts!!" />
+		<choice doc:name="Choice" doc:id="de770a4c-5f1a-4210-bc42-ba9e28100bd6" >
+			<when expression="#[upper(attributes.headers.'flowType')==p('flow.type')]">
+				<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd" doc:name="customerFlow_response">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+{
+  statusMsg: "Success",
+  statusCode: "0000",
+  partyDetails: {
+    partyID: "CUST001"
+  },
+  accountDetails: {
+    acountNo: 124345
+  }
+}]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+			</when>
+			<otherwise >
+				<ee:transform doc:name="cbsFundFlow_response" doc:id="81d248db-6dea-453e-981c-5ade6c6c3587" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+  statusMsg: "Fund transferred successfully",
+  statusCode: "0000"
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+		<logger level="INFO" doc:name="LOG-Flow ends" doc:id="eddd4a3a-1af9-4dca-9f29-583dab1192b3" message="Flow ends !!" />
+	</sub-flow>
+</mule>

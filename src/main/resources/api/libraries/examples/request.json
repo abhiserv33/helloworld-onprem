@@ -1,0 +1,640 @@
+{
+   "_id": "4493653f-c672-4d30-86b5-a6951905ab25",
+   "applicationId": "a4e41611-6fa9-4fa6-b3eb-2ea7cd6b1d45",
+   "properties": {},
+   "assigneeIds": [],
+   "primaryAssignee": null,
+   "text": "123926",
+   "inviterUserId": null,
+   "appProperties": {},
+   "createdBy": "c4088217-b987-4d2d-88df-d0f41cf699a0",
+   "createdAt": 1607534096192,
+   "lastUpdatedAt": 1607534096192,
+   "lastModifiedBy": "c4088217-b987-4d2d-88df-d0f41cf699a0",
+   "Income": {
+      "employers": [],
+      "incomes": [],
+      "partnerProvidedEmployers": []
+   },
+   "LoanCompliance": {
+      "tridData": {
+         "tridBorrowerDetails": []
+      },
+      "hasAllTridFields": false,
+      "tridTriggered": false
+   },
+   "PersonalInformation": {
+      "demographics": [],
+      "declarations": []
+   },
+   "AccountApplication": {
+      "applicants": [],
+      "accounts": []
+   },
+   "GovernmentalLoanInfo": {},
+   "BuyingPower": {},
+   "Disclosures": [],
+   "Ecoa": {},
+   "IncomeVerification": {},
+   "NetpayIncome": {},
+   "Liability": {
+      "liabilities": [],
+      "editedLiabilities": [],
+      "latePayments": []
+   },
+   "Pricing": {
+      "pricedProducts": []
+   },
+   "PublicRecords": [],
+   "LargeDeposits": {},
+   "CreditInquiries": {},
+   "SuggestedFollowUp": {},
+   "Assets": {
+      "financialInstitutions": [],
+      "ocrFinancialInstitutions": []
+   },
+   "GSE": [],
+   "PaymentCollection": {},
+   "Paystubs": {},
+   "TaxReturns": {},
+   "TaxTranscripts": {},
+   "GiftInfo": {},
+   "CreditAddresses": {},
+   "BusinessTaxReturns": {},
+   "VerificationOfIdentity": {},
+   "Realtor": {},
+   "Marketing": null,
+   "FollowUps": {},
+   "DebtConsolidation": {},
+   "LoanAssignees": {},
+   "SameLenderRefi": null,
+   "AUS": {},
+"AccountOpening": {
+"applicants": [
+{
+"_id": "e9ffe6e6-46ba-4314-b3bf-525e4adab824",
+"createdAt": "2020-12-09T17:14:57.190Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"email": "ichakraborty+3457@blend.com",
+"firstName": "Test",
+"middleName": null,
+"lastName": "Borrower",
+"suffixName": null,
+"dateOfBirth": "vault:v1:mFil1ILWfnIlVKcpQURos1RpEld8LCiAq+dvl+nP5JYoJDaklBUhQA==",
+"socialSecurityNumber": "vault:v1:zM7zj+fxoItL/Kbb/q75nd+4+DJpyy5SXkCSJEz1fYuHXVVveQ==",
+"memberNumber": null,
+"coreBankingId": null,
+"alloyEntityToken": "P-PdhbFSy95lw2W7WS43sX",
+"type": "PRIMARY",
+"identityVerificationId": null,
+"creditConsentIndicator": true,
+"econsentTs": null,
+"creditPullTs": "2020-12-09T17:18:40.679Z",
+"employmentStatus": "EMPLOYED",
+"dynamicApplicantFields": null,
+"selfStatedMemberIndicator": null,
+"addresses": [
+{
+"_id": "20561883-ee7b-424c-b063-71b99982ae59",
+"createdAt": "2020-12-09T17:16:09.589Z",
+"updatedAt": "2020-12-09T17:16:09.589Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"lineText": "457 1st West Street",
+"additionalLineText": null,
+"cityName": "Parowan",
+"stateCode": "UT",
+"zipCode": "84761",
+"countyName": "Iron County",
+"type": "CURRENT"
+}
+],
+"employers": [
+{
+"_id": "d0af5986-3e8c-4ae6-8848-d21494889f24",
+"createdAt": "2020-12-09T17:16:29.375Z",
+"updatedAt": "2020-12-09T17:16:29.375Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CURRENT",
+"name": "Target",
+"referenceId": null,
+"address": null
+}
+],
+"employments": [
+{
+"_id": "c926a123-b370-4022-9eb8-12c7864b9e14",
+"createdAt": "2020-12-09T17:16:29.375Z",
+"updatedAt": "2020-12-09T17:16:29.375Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CURRENT",
+"jobTitle": "Sales Employee",
+"annualIncome": null,
+"hireDate": null
+}
+],
+"identityDocumentation": {
+"_id": "584a778a-2192-4e68-90bf-234c457996b8",
+"createdAt": "2020-12-09T17:18:09.544Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "DRIVERS_LICENSE",
+"value": "vault:v1:wVxp0JLwa+SEZd2AJXisoIN3BAwl4H7fK9wVJFsvgXJ1NIgPGw==",
+"stateCode": "UT",
+"country": null,
+"province": null,
+"tribe": null,
+"issueDate": "2005-12-14T00:00:00.000Z",
+"expiryDate": "2025-12-13T00:00:00.000Z"
+},
+"phoneNumbers": [
+{
+"_id": "6f94401b-156a-4127-9922-afa7f89203aa",
+"createdAt": "2020-12-09T17:16:09.589Z",
+"updatedAt": "2020-12-09T17:16:09.589Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CELL",
+"value": "5675675673"
+}
+],
+"alloyEvaluations": [
+{
+"_id": "a8f2d534-6b1b-4f89-98f1-47a631db11f9",
+"createdAt": "2020-12-09T17:18:43.548Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"status": "Completed",
+"score": 0.99,
+"outcome": "Approved",
+"kbaQuestions": { },
+"evaluationToken": "S-aLxJSFHNtgpqAFnZKk6Y",
+"evaluationTs": "2020-12-09T17:18:43.420Z",
+"metadata": null
+}
+],
+"paymentGatewayHolderId": null
+}
+],
+"applications": [
+{
+"_id": "1ac14b9e-cb46-4df0-bf3b-598f9e570aef",
+"createdAt": "2020-12-09T17:14:57.190Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"referenceId": null,
+"productReferenceId": "C1",
+"debitCardIndicator": true,
+"debitCardDesign": null,
+"overdraftPrivilegeIndicator": false,
+"overdraftTimestamp": "2020-12-09T17:18:49.480Z",
+"approvalStatus": "REFER",
+"promoCode": null,
+"submittedAt": "2020-12-09T17:19:31.581Z",
+"acceptedTermsTs": null,
+"status": "PENDING_REVIEW",
+"decisioningPolicyType": "EXTERNAL",
+"metadata": {
+"signupIp": "98.210.92.165",
+"loginMethod": "anonymousBorrower",
+"bankerAppState": {
+"type": "BANKER_REVIEW"
+},
+"existingMembers": {
+"enableFlow": false
+},
+"useAlloyDecisioning": true,
+"decisioningTimestamp": 1607534371,
+"enableDelayedAccountCreation": false
+},
+"dynamicAccountOptions": {
+"1e46b442-fa12-40b4-86b4-71c13353fe3b": {
+"value": "test",
+"updatedAt": "2020-12-09T17:18:59.496Z",
+"applicantDisplay": "Code word for call-in identification"
+}
+},
+"dynamicApplicationFields": null,
+"associatedLoanId": null,
+"beneficiariesConsentIndicator": null,
+"membershipQualification": null,
+"funding": [ ],
+"backupWithholdingIndicator": null,
+"backupWithholdingTimestamp": null,
+"applicants": [
+{
+"_id": "e9ffe6e6-46ba-4314-b3bf-525e4adab824",
+"createdAt": "2020-12-09T17:14:57.190Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"email": "ichakraborty+3457@blend.com",
+"firstName": "Test",
+"middleName": null,
+"lastName": "Borrower",
+"suffixName": null,
+"dateOfBirth": "vault:v1:mFil1ILWfnIlVKcpQURos1RpEld8LCiAq+dvl+nP5JYoJDaklBUhQA==",
+"socialSecurityNumber": "vault:v1:zM7zj+fxoItL/Kbb/q75nd+4+DJpyy5SXkCSJEz1fYuHXVVve",
+"memberNumber": null,
+"coreBankingId": null,
+"alloyEntityToken": "P-PdhbFSy95lw2W7WS43sX",
+"type": "PRIMARY",
+"identityVerificationId": null,
+"creditConsentIndicator": true,
+"econsentTs": null,
+"creditPullTs": "2020-12-09T17:18:40.679Z",
+"employmentStatus": "EMPLOYED",
+"dynamicApplicantFields": null,
+"selfStatedMemberIndicator": null,
+"addresses": [
+{
+"_id": "20561883-ee7b-424c-b063-71b99982ae59",
+"createdAt": "2020-12-09T17:16:09.589Z",
+"updatedAt": "2020-12-09T17:16:09.589Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"lineText": "457 1st West Street",
+"additionalLineText": null,
+"cityName": "Parowan",
+"stateCode": "UT",
+"zipCode": "84761",
+"countyName": "Iron County",
+"type": "CURRENT"
+}
+],
+"employers": [
+{
+"_id": "d0af5986-3e8c-4ae6-8848-d21494889f24",
+"createdAt": "2020-12-09T17:16:29.375Z",
+"updatedAt": "2020-12-09T17:16:29.375Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CURRENT",
+"name": "Target",
+"referenceId": null,
+"address": null
+}
+],
+"employments": [
+{
+"_id": "c926a123-b370-4022-9eb8-12c7864b9e14",
+"createdAt": "2020-12-09T17:16:29.375Z",
+"updatedAt": "2020-12-09T17:16:29.375Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CURRENT",
+"jobTitle": "Sales Employee",
+"annualIncome": null,
+"hireDate": null
+}
+],
+"identityDocumentation": {
+"_id": "584a778a-2192-4e68-90bf-234c457996b8",
+"createdAt": "2020-12-09T17:18:09.544Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "DRIVERS_LICENSE",
+"value": "vault:v1:wVxp0JLwa+SEZd2AJXisoIN3BAwl4H7fK9wVJFsvgXJ1NIgPGw==",
+"stateCode": "UT",
+"country": null,
+"province": null,
+"tribe": null,
+"issueDate": "2005-12-14T00:00:00.000Z",
+"expiryDate": "2025-12-13T00:00:00.000Z"
+},
+"phoneNumbers": [
+{
+"_id": "6f94401b-156a-4127-9922-afa7f89203aa",
+"createdAt": "2020-12-09T17:16:09.589Z",
+"updatedAt": "2020-12-09T17:16:09.589Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "CELL",
+
+"value": "5675675673"
+}
+],
+"alloyEvaluations": [
+{
+"_id": "a8f2d534-6b1b-4f89-98f1-47a631db11f9",
+"createdAt": "2020-12-09T17:18:43.548Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"status": "Completed",
+"score": 0.99,
+"outcome": "Approved",
+"kbaQuestions": { },
+"evaluationToken": "S-aLxJSFHNtgpqAFnZKk6Y",
+"evaluationTs": "2020-12-09T17:18:43.420Z",
+"metadata": null
+}
+],
+"paymentGatewayHolderId": null
+}
+],
+"accounts": [
+{
+"_id": "70e76763-fe43-4e24-a175-302a901c48b1",
+"createdAt": "2020-12-09T17:14:57.190Z",
+"updatedAt": "2020-12-09T17:14:57.190Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"referenceId": "C1",
+"configurationId": "8908042a-9188-4a65-b32d-cd177a2d0e69",
+"type": "CHECKING",
+"planType": null,
+"description": "Basic Checking",
+"isPrimary": null,
+"term": null,
+"accountNumber": null,
+"routingNumber": null,
+"verifiedAccountId": null
+}
+],
+"integrationEvents": [
+{
+"_id": "1842e33b-26ff-4dce-a410-752bd8a22fe1",
+"createdAt": "2020-12-09T17:19:31.709Z",
+"updatedAt": "2020-12-09T17:19:32.599Z",
+"_deletedAt": null,
+"tenant": "uccu~default",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"type": "applicationSubmitted",
+"status": "SUCCEEDED",
+"failureCode": null,
+"failureMessage": null,
+"acknowledged": true
+}
+]
+}
+]
+},
+"PersonalInformationExternal": {
+"demographics": [ ],
+"declarations": [ ]
+},
+"application": {
+"_id": "a4e41611-6fa9-4fa6-b3eb-2ea7cd6b1d45",
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"applicationTemplateId": "d8537078-170f-48b7-ab83-683009de8da5",
+"loanApplicationTemplateId": "4489dad9-e748-4731-a4de-36de420ef55e",
+"loanIdentifiers": [
+{
+"loanIdentifier": "123926",
+"loanIdentifierType": "LENDER_CASE",
+"_id": "10ff46b7-4817-4f88-a941-49f21beaa7bf"
+}
+],
+"status": {
+"name": "IN_PROGRESS",
+"text": "Application in Progress",
+"description": "Application in Progress"
+},
+"applicationStatus": "IN_PROGRESS",
+"creationDate": 1607534096132,
+"borrowers": [
+
+{
+"_id": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"type": "BORROWER",
+"userId": "c4088217-b987-4d2d-88df-d0f41cf699a0",
+"email": "225f089e-6e49-4127-87bf-6ca0f646981f@interim.sso.blend.com",
+"status": "IN_APPLICATION",
+"creationDate": 1607534096132,
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25",
+"bdsId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"milestoneId": "Full Application",
+"name": {
+"fullName": "Test Borrower",
+"firstName": "Test",
+"lastName": "Borrower"
+},
+"econsentGiven": {
+"status": true,
+"date": 1607534170458,
+"ip": "34.194.253.233",
+"userId": "b0df3ae1-16d4-4423-b15c-cd4e8b7e0575"
+},
+"SSN": {
+"taxpayerIdentifierType": "SOCIAL_SECURITY_NUMBER",
+"taxpayerIdentifierValue": "vault:v1:1reOVsgloVakEUfZmzXkq0PW7LV7nPi32uPhzT4ZfmCO9iKF6Q=="
+},
+"totalIncome": 0,
+"totalExpense": 0
+}
+],
+"isLenderEntered": null,
+"appSource": null,
+"propertyInfo": {
+"_id": "193ebeb1-e1cf-439f-bc26-2ca4428b969e",
+"communityId": null,
+"topicId": "4493653f-c672-4d30-86b5-a6951905ab25"
+},
+"lastUpdated": {
+"timestamp": 1607534370149,
+"userId": "c4088217-b987-4d2d-88df-d0f41cf699a0",
+"fullName": null
+},
+"URLAVersion": null,
+"loanType": "ACCOUNT_OPENING",
+"loanPurposeType": "OTHER",
+"estateHeldIn": null,
+"leadStatus": "Customer",
+"referralSourceType": null,
+"otherLoanSubType": null,
+"requiresSubTypeSelection": false,
+"accountOpening": {
+"accountNames": [
+"Basic Checking"
+],
+"applicationStatus": "PENDING_REVIEW",
+"approvalStatus": "REFER",
+"submittedAt": 1607534371581
+},
+"borrowerTouched": true,
+"loanComplianceDetails": [ ],
+"underwritingFindings": [ ],
+"wholesaleLenderSync": [ ],
+"borrowersTotalIncome": 0,
+"borrowersTotalExpense": 0,
+"loanPurposeTypeOther": "ACCOUNT_OPENING",
+"calculatedStatuses": {
+"isFinishedSetup": false,
+"isPendingInvite": false,
+"hasBeenStarted": true,
+"hasSubmitted": false,
+"isInFollowUps": false,
+"isInProgress": true,
+"primaryIsInProgress": true,
+"coborrowerIsInProgress": false,
+"primaryIsCurrentlyInvited": false
+}
+},
+"processes": {
+"account-opening:Personal Information_0": {
+"BORROWER/2f41c9ee-c2e0-417f-b0af-30f3337fce29": {
+"_context": {
+"uid": "BORROWER/2f41c9ee-c2e0-417f-b0af-30f3337fce29",
+"followUp": null
+},
+"displayOptions": { },
+
+"properties": {
+"Current Status": "Completed",
+"Scenario Tracking Id": "f6c53518-6f83-4930-b721-03184ffebf60",
+"currentBorrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"currentApplicantId": "e9ffe6e6-46ba-4314-b3bf-525e4adab824",
+"Started": {
+"type": "moment",
+"value": 1607534170878
+},
+"Completed": {
+"type": "moment",
+"value": 1607534198756,
+"userId": "c4088217-b987-4d2d-88df-d0f41cf699a0"
+}
+},
+"loanRequestId": "289cab6f-33be-4088-aa58-f532f074b2ea"
+}
+},
+"account-opening:Identity Verification_0": {
+"BORROWER/067ec21d-2cc7-4093-a237-5ac376b5cf40": {
+"_context": {
+"uid": "BORROWER/067ec21d-2cc7-4093-a237-5ac376b5cf40",
+"followUp": null
+},
+"displayOptions": { },
+"properties": {
+"Current Status": "Completed",
+"Scenario Tracking Id": "83a0cfab-c1d8-4ca5-b42d-2c60f64809fc",
+"currentBorrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"currentApplicantId": "e9ffe6e6-46ba-4314-b3bf-525e4adab824",
+"Completed": {
+"type": "moment",
+"value": 1607534324346,
+"userId": "c4088217-b987-4d2d-88df-d0f41cf699a0"
+}
+},
+"loanRequestId": "8c34bbc9-1791-4d4a-a8ef-8b7cd8dc34b4"
+}
+},
+"account-opening:Account Funding_0": {
+"BORROWER/247c92bf-d924-43e9-a363-307aac5b76db": {
+"_context": {
+"uid": "BORROWER/247c92bf-d924-43e9-a363-307aac5b76db",
+"followUp": null
+},
+"displayOptions": { },
+"properties": {
+"Current Status": "Not Started",
+"Scenario Tracking Id": "90e73299-1b2f-4dd9-b4d7-ed1e303833bf",
+"currentBorrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"currentApplicantId": "e9ffe6e6-46ba-4314-b3bf-525e4adab824"
+},
+"loanRequestId": "843480b6-4307-4d67-bf67-f6044e6bef9c"
+}
+},
+"account-opening:Account Setup_0": {
+"BORROWER/22320057-15ab-466d-a297-6e0a2918deed": {
+"_context": {
+"uid": "BORROWER/22320057-15ab-466d-a297-6e0a2918deed",
+"followUp": null
+},
+"displayOptions": { },
+"properties": {
+"Current Status": "In Progress",
+"Scenario Tracking Id": "cb985862-5a1a-4837-9767-4eec6ee945e1",
+"currentBorrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"currentApplicantId": "e9ffe6e6-46ba-4314-b3bf-525e4adab824",
+"Started": {
+"type": "moment",
+"value": 1607534329882
+}
+},
+"loanRequestId": "88f4522c-a603-4847-a533-85c584c0078c"
+}
+},
+"Other Document Follow-Up_0": {
+"BORROWER/bb36cee0-0e3a-4314-ad53-78559e9f29b4": {
+"_context": {
+"uid": "BORROWER/bb36cee0-0e3a-4314-ad53-78559e9f29b4",
+"followUp": {
+"type": "Document Request",
+"comments": "We need a copy of a valid government-issued photo ID in order to protect you from identity theft. A driver’s licens ",
+"context": 
+[
+{"borrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34"
+}
+],
+"text": "Government-Issued ID",
+"followUpTemplateId": "36303803-fed2-43ce-8d61-2be5b8498995",
+"document": {
+"typeInfo": {
+"type": "NATIONAL_IDENTIFICATION",
+"category": "Borrower Info",
+"text": "Government-Issued ID",
+"entity": "Party"
+}
+}
+}
+},
+"displayOptions": { },
+"properties": {
+"Current Status": "Not Started",
+"Scenario Tracking Id": "dc77fb42-294c-41b5-9a5e-c4148e1e7f55",
+"currentBorrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34",
+"followUp": {
+"issueId": "d2a9b4ce-6936-4dd7-89f3-afa6daa7d843",
+"type": "Document Request",
+"comments": "We need a copy of a valid government-issued photo ID in order to protect you from identity theft. A driver’s licens",
+"context": [
+{
+"borrowerId": "1a9d64c9-71b9-4803-8822-f7eae58f7c34"
+}
+],
+"text": "Government-Issued ID",
+"followUpTemplateId": "36303803-fed2-43ce-8d61-2be5b8498995",
+"document": {
+"typeInfo": {
+"type": "NATIONAL_IDENTIFICATION",
+"category": "Borrower Info",
+"text": "Government-Issued ID",
+"entity": "Party"
+}
+}
+}
+},
+"loanRequestId": "cb6f7b80-56bb-411e-b569-10278ebd5108"
+}
+}
+},
+"id": "4493653f-c672-4d30-86b5-a6951905ab25",
+"path": "/loans/4493653f-c672-4d30-86b5-a6951905ab25/application",
+"assignees": [ ],
+"encompassPartnershipFlag": false
+}
