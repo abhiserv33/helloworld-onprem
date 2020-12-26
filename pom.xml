@@ -35,7 +35,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>abhmule1712</username>
 						<password>Mulesoft4321</password>
-						<applicationName>INTG-MS-UCCU-blend-fiserv-custcrt-prc-api</applicationName>
+						<applicationName>INTG-MS-UCCU-blend-fiserv-api</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
                 </configuration>
