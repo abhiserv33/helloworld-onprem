@@ -36,13 +36,14 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>abhmule1712</username>
 						<password>Mulesoft4321</password>
-						<applicationName>INTG-MS-UCCU-blend-fiserv-api</applicationName>
+						<applicationName>INTG-MS-UCCU-blend-fiserv-custcrt-prc-api-test</applicationName>
 						<environment>Sandbox</environment>
 						<region>eu-central-1</region>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
-                </configuration>
+                		</configuration>
 			</plugin>
 		</plugins>
 	</build>
