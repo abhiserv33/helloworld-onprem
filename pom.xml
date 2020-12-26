@@ -7,7 +7,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>INTG-MS-UCCU-blend-fiserv-custcrt-prc-api</name>
+	<name>INTG-MS-UCCU-blend-fiserv-api</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
