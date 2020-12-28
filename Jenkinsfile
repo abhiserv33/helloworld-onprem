@@ -1,4 +1,3 @@
-node('Node') {
 	stages {
 		stage('Build') {
 			steps {
@@ -21,4 +20,3 @@ node('Node') {
 			}
 		}
 	}
-}
