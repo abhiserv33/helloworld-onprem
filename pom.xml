@@ -42,15 +42,6 @@
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
-    					<armDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
-						<server>anypoint.credentials</server>
-						<applicationName>INTG-MS-UCCU-blend-fiserv-api-ser</applicationName>
-						<environment>Sandbox</environment>
-						<target>mule-enterprise-standalone-4.3.0</target>
-						<targetType>server</targetType>
-    					</armDeployment>
  				</configuration>
 			</plugin>
 		</plugins>
