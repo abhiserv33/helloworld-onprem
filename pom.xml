@@ -31,17 +31,15 @@
 				<extensions>true</extensions>
 				<configuration>
 					<classifier>mule-application</classifier>
-					<cloudHubDeployment>
+					<armDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<server>anypoint.credentials</server>
-						<applicationName>INTG-MS-UCCU-blend-fiserv-api</applicationName>
+						<applicationName>INTG-MS-UCCU-blend-fiserv-api-ser</applicationName>
 						<environment>Sandbox</environment>
-						<region>eu-central-1</region>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
+						<target>mule-enterprise-standalone-4.3.0</target>
+						<targetType>server</targetType>
+    					</armDeployment>
  				</configuration>
 			</plugin>
 		</plugins>
