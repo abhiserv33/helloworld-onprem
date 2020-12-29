@@ -1,7 +1,0 @@
-http:
-  host: "api.uccu.intg.dev.com"
-  port: "8081"
-api:
-  basepath: "/blend/fiserv/custCreate/*"
-flow:
-  type: "CUSTOMERFLOW" 
