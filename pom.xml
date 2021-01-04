@@ -37,10 +37,10 @@
 						<server>anypoint.credentials</server>
 						<applicationName>helloWorld-onprem</applicationName>
 						<environment>Development</environment>
-						<target>mule-enterprise-standalone-4.3.0</target>
+						<target>mule-enterprise-standalone-4.2.2</target>
 						<targetType>server</targetType>
-    				</armDeployment>
-                </configuration>
+    					</armDeployment>
+                		</configuration>
 			</plugin>
 		</plugins>
 	</build>
