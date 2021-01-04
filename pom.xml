@@ -36,7 +36,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<server>anypoint.credentials</server>
 						<applicationName>helloWorld-onprem</applicationName>
-						<environment>Sandbox</environment>
+						<environment>Development</environment>
 						<target>mule-enterprise-standalone-4.3.0</target>
 						<targetType>server</targetType>
     				</armDeployment>
